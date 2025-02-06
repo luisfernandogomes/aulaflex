@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.vermelho{
+    background-color: red;
+    height: 80px;
+    margin: 40px;
+}
+.azul{
+    height: 45vh;
+    margin-left: 40px;
+    margin-right: 40px;
+    background-color: blue;
+    margin-bottom: 20px;
+}
+.alinhado_orizontalmente{
+    display: flex;
+    justify-content: space-around;
+    margin-right: 40px;
+    margin-left: 40px;
+
+    .div-filho{
+        width: 30vw;
+        height: 25vh;
+        background-color: lightblue;
+    }
+}
